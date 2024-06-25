@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70927182C2ACBD5007CBE54 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70927172C2ACBD5007CBE54 /* Player.swift */; };
+		E709271C2C2ACF19007CBE54 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709271B2C2ACF19007CBE54 /* Platform.swift */; };
+		E70927242C2ADBC2007CBE54 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70927232C2ADBC2007CBE54 /* GameOverView.swift */; };
 		E77201852C20394900F87375 /* Milkowski_ProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77201842C20394900F87375 /* Milkowski_ProjApp.swift */; };
 		E77201872C20394900F87375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77201862C20394900F87375 /* ContentView.swift */; };
 		E772018C2C20394B00F87375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E772018B2C20394B00F87375 /* Preview Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70927172C2ACBD5007CBE54 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E709271B2C2ACF19007CBE54 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		E70927232C2ADBC2007CBE54 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		E77201812C20394900F87375 /* Milkowski_Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milkowski_Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77201842C20394900F87375 /* Milkowski_ProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milkowski_ProjApp.swift; sourceTree = "<group>"; };
 		E77201862C20394900F87375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +61,9 @@
 				E77201842C20394900F87375 /* Milkowski_ProjApp.swift */,
 				E77201862C20394900F87375 /* ContentView.swift */,
 				E772018A2C20394B00F87375 /* Preview Content */,
+				E70927172C2ACBD5007CBE54 /* Player.swift */,
+				E709271B2C2ACF19007CBE54 /* Platform.swift */,
+				E70927232C2ADBC2007CBE54 /* GameOverView.swift */,
 			);
 			path = Milkowski_Proj;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E709271C2C2ACF19007CBE54 /* Platform.swift in Sources */,
 				E77201872C20394900F87375 /* ContentView.swift in Sources */,
+				E70927182C2ACBD5007CBE54 /* Player.swift in Sources */,
 				E77201852C20394900F87375 /* Milkowski_ProjApp.swift in Sources */,
+				E70927242C2ADBC2007CBE54 /* GameOverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
