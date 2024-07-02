@@ -218,7 +218,7 @@ struct ContentView: View {
     
     //Start Game Setup
     func startGame() {
-        adjustDifficulty() 
+        adjustDifficulty()
         choosePlayer()
         velocity = 0
         timer?.invalidate()
@@ -363,4 +363,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
